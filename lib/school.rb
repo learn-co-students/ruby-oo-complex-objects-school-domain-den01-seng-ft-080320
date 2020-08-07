@@ -20,15 +20,7 @@ class School
    end
 
    def sort 
-    @roster.each do |key, value| 
-        value.sort!
-    end
+    @roster.each {|key, value| value.sort!}
    end
 
-
-
 end
-
-#sorted_names = @roster.map do |key, value|
-#    value.sort
-#end
